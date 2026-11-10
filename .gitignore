@@ -1,2 +1,14 @@
-# Project exclude paths
-/target/
+# Сборка Maven
+target/
+
+# База данных SQLite
+passwords.db
+*.db
+*.db-*
+
+# Системные файлы macOS
+.DS_Store
+
+# Настройки IntelliJ IDEA
+.idea/
+*.iml
